@@ -2,14 +2,23 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Многоязычный сайт</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
+        nav ul { list-style: none; padding: 0; }
+        nav li { margin: 10px 0; }
+        nav a { text-decoration: none; color: #0366d6; font-size: 18px; }
+        nav a:hover { text-decoration: underline; }
+    </style>
 </head>
 <body>
-    <h1>Добро пожаловать!</h1>
+    <h1>Добро пожаловать на многоязычный сайт!</h1>
+    <p>Выберите язык:</p>
     <nav>
         <ul>
-            <li><a href="v{LATEST_VERSION}/ru/index.html">Русская версия</a></li>
-            <li><a href="v{LATEST_VERSION}/en/index.html">English version</a></li>
+            <li><a href="ru/index.html">Русская версия</a></li>
+            <li><a href="en/index.html">English version</a></li>
         </ul>
     </nav>
 </body>
